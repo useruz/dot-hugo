@@ -1,0 +1,131 @@
+{
+  "version": "1",
+  "media_path": "/static",
+  "ssg_framework": "hugo",
+  "frontmatter_format": "yaml",
+  "publishing_mode": "editorial_workflow",
+  "collections": [
+    {
+      "name": "billing-pricing",
+      "git_path": "/content/billing-pricing/",
+      "file_extension": ".md",
+      "filename_pattern": "",
+      "collection_type": "grouped",
+      "frontmatter_schema": [
+        {
+          "name": "title",
+          "type": "title",
+          "label": "Title"
+        },
+        {
+          "name": "date",
+          "type": "datetime",
+          "label": "Date"
+        },
+        {
+          "name": "icon",
+          "type": "image",
+          "label": "Icon"
+        },
+        {
+          "name": "description",
+          "type": "richtext",
+          "label": "Description"
+        },
+        {
+          "name": "type",
+          "type": "text",
+          "label": "Type"
+        }
+      ]
+    },
+    {
+      "name": "features",
+      "git_path": "/content/features/",
+      "file_extension": ".md",
+      "filename_pattern": "",
+      "collection_type": "grouped",
+      "frontmatter_schema": [
+        {
+          "name": "title",
+          "type": "title",
+          "label": "Title"
+        },
+        {
+          "name": "date",
+          "type": "datetime",
+          "label": "Date"
+        },
+        {
+          "name": "icon",
+          "type": "image",
+          "label": "Icon"
+        },
+        {
+          "name": "description",
+          "type": "richtext",
+          "label": "Description"
+        },
+        {
+          "name": "type",
+          "type": "text",
+          "label": "Type"
+        }
+      ]
+    },
+    {
+      "name": "installation",
+      "git_path": "/content/installation/",
+      "file_extension": ".md",
+      "filename_pattern": "",
+      "collection_type": "grouped",
+      "frontmatter_schema": [
+        {
+          "name": "title",
+          "type": "title",
+          "label": "Title"
+        },
+        {
+          "name": "date",
+          "type": "datetime",
+          "label": "Date"
+        },
+        {
+          "name": "icon",
+          "type": "image",
+          "label": "Icon"
+        },
+        {
+          "name": "description",
+          "type": "richtext",
+          "label": "Description"
+        },
+        {
+          "name": "type",
+          "type": "text",
+          "label": "Type"
+        }
+      ]
+    },
+    {
+      "name": "pages",
+      "git_path": "/content/pages/",
+      "file_extension": ".md",
+      "filename_pattern": "",
+      "collection_type": "flat",
+      "frontmatter_schema": [
+        {
+          "name": "ignoreSearch",
+          "type": "boolean",
+          "label": "Ignore Search",
+          "default": true
+        },
+        {
+          "name": "_build",
+          "type": "json",
+          "label": " build"
+        }
+      ]
+    }
+  ]
+}

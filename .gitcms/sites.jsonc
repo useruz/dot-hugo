@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "sites": [
+    {
+      "key": "examplesite",
+      "display_name": "Dot",
+      "website_url": "https://gethugothemes.com/products/dot/?utm_source=dot_github&utm_medium=referral&utm_campaign=github_theme_about",
+      "root_path": "exampleSite"
+    }
+  ]
+}
